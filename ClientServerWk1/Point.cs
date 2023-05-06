@@ -10,5 +10,6 @@ namespace ClientServerWk1
     {
         public int x;
         public int y;
+        //Making a change here
     }
 }

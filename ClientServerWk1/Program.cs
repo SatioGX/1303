@@ -54,7 +54,10 @@ namespace ClntSrvrWk1
         {
             int inches = feet * 12;
             return inches;
+            Console.WriteLine("Kevin");
+            Console.WriteLine("Student Number: 000411471");
         }
+        
     }
 
     
