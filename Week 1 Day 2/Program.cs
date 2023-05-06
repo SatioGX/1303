@@ -4,22 +4,30 @@ namespace _1303Day2
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World");
+        //static void Main(string[] args)
+        //{
+        //    Program program = new Program();
+        //    program.TestReadLine();
 
-            Console.WriteLine("Enter one or more lines - press CTRL Z to exit");
-            string line;
+        //    Console.WriteLine("Hello World");
 
-            do
-            {
-                Console.Write("===>");
-                line = Console.ReadLine();
-                if (line != null)
-                {
-                    Console.WriteLine($"{line}");
-                }
-            } while (line != null);
-        }
+        //    Console.WriteLine("Enter one or more lines - press CTRL Z to exit");
+        //    string line;
+
+        //    do
+        //    {
+        //        Console.Write("===>");
+        //        line = Console.ReadLine();
+        //        if (line != null)
+        //        {
+        //            Console.WriteLine($"{line}");
+        //        }
+        //    } while (line != null);
+        //}
+
+        //public void TestReadLine()
+        //{
+
+        //}
     }
 }
