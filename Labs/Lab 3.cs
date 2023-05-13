@@ -29,4 +29,9 @@ class Program
             Console.WriteLine("User ID: " + users[i].ID + ", Name: " + users[i].Name);
         }
     }
+
+    internal void TestReadLine()
+    {
+        throw new NotImplementedException();
+    }
 }

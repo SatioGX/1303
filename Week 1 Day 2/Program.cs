@@ -1,33 +1,39 @@
-﻿// See https://aka.ms/new-console-templusing System;
+﻿//// See https://aka.ms/new-console-templusing System;
 
-namespace _1303Day2
-{
-    internal class Program
-    {
-        //static void Main(string[] args)
-        //{
-        //    Program program = new Program();
-        //    program.TestReadLine();
+//namespace _1303Day2
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Program program = new Program();
+//            program.TestReadLine();
 
-        //    Console.WriteLine("Hello World");
+//            Console.WriteLine("Hello World");
 
-        //    Console.WriteLine("Enter one or more lines - press CTRL Z to exit");
-        //    string line;
+//            Console.WriteLine("Enter one or more lines - press CTRL Z to exit");
+//            string line;
 
-        //    do
-        //    {
-        //        Console.Write("===>");
-        //        line = Console.ReadLine();
-        //        if (line != null)
-        //        {
-        //            Console.WriteLine($"{line}");
-        //        }
-        //    } while (line != null);
-        //}
+//            do
+//            {
+//                Console.Write("===>");
+//                line = Console.ReadLine();
+//                if (line != null)
+//                {
+//                    Console.WriteLine($"{line}");
+//                }
+//            } while (line != null);
+//        }
 
-        //public void TestReadLine()
-        //{
+//        public void TestReadLine()
+//        {
+//            Console.WriteLine("Enter text (press CTRL+Z and Enter to finish):");
 
-        //}
-    }
-}
+//            string inputLine;
+//            while ((inputLine = Console.ReadLine()) != null)
+//            {
+//                Console.WriteLine("Input: " + inputLine);
+//            }
+//        }
+//    }
+//}
