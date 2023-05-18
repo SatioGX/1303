@@ -13,7 +13,7 @@ class Program
         int choice;
         do
         {
-            Console.WriteLine("Menu:");
+            Console.WriteLine("Menu: ");
             Console.WriteLine("1 - Add user");
             Console.WriteLine("2 - Show user by ID");
             Console.WriteLine("3 - Show user by Name");
