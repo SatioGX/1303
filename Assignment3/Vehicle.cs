@@ -19,6 +19,7 @@ public class Vehicle
 // Car class derived from Vehicle
 public class Car : Vehicle
 {
+    private int doors;
     public int NumDoors { get; set; }
 
     public override void info()
