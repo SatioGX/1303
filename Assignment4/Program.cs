@@ -73,6 +73,7 @@ class Program
         myMotorcycle.VIN = "951753";
         myMotorcycle.licenseNumber = "ICL15G";
         myMotorcycle.HasSidecar = true;
+        myMotorcycle.speed = 50;
         myMotorcycle.maxSpeed = 120;
         myMotorcycle.info();
         myMotorcycle.currentStatus();
