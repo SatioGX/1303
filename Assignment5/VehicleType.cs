@@ -31,17 +31,17 @@ public class Vehicle<TVehicleType, TEngine, TBody>
 
     public void Start()
     {
-        Console.WriteLine($"Starting the {Type} with {Engine.Horsepower} horsepower...");
+        Console.WriteLine($"Starting the {Type} with {Engine.Horsepower} horsepower");
     }
 
     public void Drive()
     {
-        Console.WriteLine($"Driving the {Type}...");
+        Console.WriteLine($"Driving the {Type}");
     }
 
     public void Stop()
     {
-        Console.WriteLine($"Stopping the {Type}...");
+        Console.WriteLine($"Stopping the {Type}");
     }
 
 }
