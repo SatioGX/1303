@@ -8,7 +8,7 @@ namespace _1303_midterm_KevinSoo_000411471.Question_11
 {
     public class Stack<T>
     {
-        private List<T> items;
+        public List<T> items;
 
         public Stack()
         {
