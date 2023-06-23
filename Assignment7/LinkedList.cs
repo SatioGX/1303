@@ -67,12 +67,10 @@
         {
             if (this.count == 0)
             {
-                // List is empty, nothing to remove
                 return;
             }
             else if (this.count == 1)
             {
-                // List has only one node, remove it
                 this.Head = null;
                 this.Tail = null;
                 this.count = 0;
@@ -80,14 +78,12 @@
             }
             else
             {
-                // Traverse the list to find the node before the tail
                 LinkedListNode<T> current = this.Head;
                 while (current.Next != this.Tail)
                 {
                     current = current.Next;
                 }
 
-                // Update tail and remove the current tail node
                 current.Next = null;
                 this.Tail = current;
                 this.count--;
